@@ -1,0 +1,1466 @@
+[
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.classification",
+        "code": "1",
+        "value_ua": "Фізична особа",
+        "value_ru": "Физическое лицо",
+        "value_en": "Individual",
+        "dav": "cid-01"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.classification",
+        "code": "2",
+        "value_ua": "Фізична особа - суб'єкт підприємницької діяльності",
+        "value_ru": "Физическое лицо - субъект предпринимательской деятельности",
+        "value_en": "Individual - Private Entrepreneur",
+        "dav": "cid-01"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "1",
+        "value_ua": "Позичальник",
+        "value_ru": "Заемщик",
+        "value_en": "Borrower",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "2",
+        "value_ua": "Особа, що несе солідарну відповідальність по боргу",
+        "value_ru": "Лицо, которое несет солидарную ответственность по займу",
+        "value_en": "Co-Debtor with joint liability",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "3",
+        "value_ua": "Гарант",
+        "value_ru": "Гарант",
+        "value_en": "Guarantor",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "4",
+        "value_ua": "Законний представник",
+        "value_ru": "Законный представитель",
+        "value_en": "Chief Accountant",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "5",
+        "value_ua": "Директор",
+        "value_ru": "Директор",
+        "value_en": "Director",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "6",
+        "value_ua": "Партнер/Власник/Акціонер",
+        "value_ru": "Партнер/Хозяин/Акционер",
+        "value_en": "Partner/Owner/Shareholder",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "7",
+        "value_ua": "Дружина/Чоловік",
+        "value_ru": "Жена/Муж",
+        "value_en": "Wife/Husband",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "8",
+        "value_ua": "Страхувальник",
+        "value_ru": "Страховщик",
+        "value_en": "Insured",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "9",
+        "value_ua": "Платник страхового внеску",
+        "value_ru": "Плательщик страхового взноса",
+        "value_en": "Insurance Premium Payer",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "10",
+        "value_ua": "Ліквідатор",
+        "value_ru": "Ликвидатор",
+        "value_en": "Liquidator",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "11",
+        "value_ua": "Свідок страхового випадку / події",
+        "value_ru": "Свидетель страхового случая / события",
+        "value_en": "Witness of the Accident / Event",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.roleId",
+        "code": "12",
+        "value_ua": "Позивач",
+        "value_ru": "Истец",
+        "value_en": "Claimant",
+        "dav": "cid-02"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.residency",
+        "code": "1",
+        "value_ua": "Резидент",
+        "value_ru": "Резидент",
+        "value_en": "Resident",
+        "dav": "cid-03"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.residency",
+        "code": "2",
+        "value_ua": "Іноземець, нерезидент",
+        "value_ru": "Иностранец, нерезидент",
+        "value_en": "Foreigner, non-resident",
+        "dav": "cid-03"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "0",
+        "value_ua": "Не має негативного статусу",
+        "value_ru": "Нет негативного статуса",
+        "value_en": "Without Negative Status",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "1",
+        "value_ua": "Клієнт безвісно відсутній або померлий",
+        "value_ru": "Клиент без вести пропавший или умер",
+        "value_en": "Customer Untraceable or Deceased",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "2",
+        "value_ua": "Активи заморожені або конфісковані",
+        "value_ru": "Имущество арестовано, ограничено в распоряжении, принудительно изъято",
+        "value_en": "Assets Frozen or Seized",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "3",
+        "value_ua": "Наглядовий орган",
+        "value_ru": "Наблюдательній орган",
+        "value_en": "Supervisory/Crisis Administration",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "4",
+        "value_ua": "Порушення справи про банкрутство",
+        "value_ru": "Возбуждение дела о банкротстве",
+        "value_en": "Case of bankruptcy started",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "5",
+        "value_ua": "Судовий позов компанії",
+        "value_ru": "Судовой иск компании",
+        "value_en": "Court Action by Company",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "6",
+        "value_ua": "Банкрутство, визнане судом",
+        "value_ru": "Банкрутство, визнане судом",
+        "value_en": "Court-Declared Bankruptcy",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "7",
+        "value_ua": "Ліквідація",
+        "value_ru": "Ликвидация",
+        "value_en": "Liquidation",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "8",
+        "value_ua": "Доведене шахрайство",
+        "value_ru": "Доказанное мошенничество",
+        "value_en": "Proven Fraud",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "9",
+        "value_ua": "Неправомірний дебетовий остаток на поточному рахунку (не повязаний з поточними операціями)",
+        "value_ru": "Неразрешённый дебетовый баланс на текущем счёте (не относящийся к текущим операциям)",
+        "value_en": "Unauthorized Debit Balance on Current Account (not related to current operations)",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "10",
+        "value_ua": "Повторення шахрайства",
+        "value_ru": "Повторение жульничества",
+        "value_en": "Reccurence of Fraud",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "11",
+        "value_ua": "Обмежений(-а) в цивільній дієздатності за рішенням суду",
+        "value_ru": "Ограничен(-а) в гражданской дееспособности по решению суда",
+        "value_en": "Limited in a civil capability in decision of court",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.negative_status",
+        "code": "12",
+        "value_ua": "Порушено кримінальне провадждення",
+        "value_ru": "Начато уголовное производство",
+        "value_en": "Criminal proceedings started",
+        "dav": "cid-05"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.gender",
+        "code": "1",
+        "value_ua": "Чоловіча",
+        "value_ru": "Мужской",
+        "value_en": "Male",
+        "dav": "cid-06"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.gender",
+        "code": "2",
+        "value_ua": "Жіноча",
+        "value_ru": "Женский",
+        "value_en": "Female",
+        "dav": "cid-06"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.education",
+        "code": "7",
+        "value_ua": "Інше",
+        "value_ru": "Другое",
+        "value_en": "Other",
+        "dav": "cid-07"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.education",
+        "code": "6",
+        "value_ua": "Науковий ступінь",
+        "value_ru": "Ученая степень",
+        "value_en": "Academic degree",
+        "dav": "cid-07"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.education",
+        "code": "5",
+        "value_ua": "Вища освіта",
+        "value_ru": "Высшее",
+        "value_en": "Higher education",
+        "dav": "cid-07"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.education",
+        "code": "4",
+        "value_ua": "Незакінчена вища",
+        "value_ru": "Неоконченное высшее",
+        "value_en": "Secondary with certificate",
+        "dav": "cid-07"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.education",
+        "code": "3",
+        "value_ua": "Середньо - технічна",
+        "value_ru": "Среднее-техническое",
+        "value_en": "Secondary without certificate",
+        "dav": "cid-07"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.education",
+        "code": "2",
+        "value_ua": "Середня",
+        "value_ru": "Начальное",
+        "value_en": "Basic",
+        "dav": "cid-07"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.education",
+        "code": "1",
+        "value_ua": "Незакінчена середня",
+        "value_ru": "Незаконченная средняя",
+        "value_en": "Unfinished",
+        "dav": "cid-07"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.marital_status",
+        "code": "6",
+        "value_ua": "Невизначено",
+        "value_ru": "Неопределено",
+        "value_en": "Unknown",
+        "dav": "cid-08"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.marital_status",
+        "code": "5",
+        "value_ua": "В громадянскьму шлюбі",
+        "value_ru": "В гражданском браке",
+        "value_en": "Mate",
+        "dav": "cid-08"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.marital_status",
+        "code": "4",
+        "value_ua": "Вдова (-ець)",
+        "value_ru": "Вдова (-ец)",
+        "value_en": "Widow (er)",
+        "dav": "cid-08"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.marital_status",
+        "code": "3",
+        "value_ua": "Розлучений (-на)",
+        "value_ru": "Разведенный (-ная)",
+        "value_en": "Divorced",
+        "dav": "cid-08"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.marital_status",
+        "code": "2",
+        "value_ua": "Одружений (-на)",
+        "value_ru": "Женатый (-а)",
+        "value_en": "Married",
+        "dav": "cid-08"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.marital_status",
+        "code": "1",
+        "value_ua": "Неодружений(-на)",
+        "value_ru": "Неженатый (-а)",
+        "value_en": "Unmarried",
+        "dav": "cid-08"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.ownership",
+        "code": "10",
+        "value_ua": "Інше (для фізичних осіб та нерезидентів)",
+        "value_ru": "Другое (для физических лиц и нерезидентов)",
+        "value_en": "Other (for individuals and non-residents)",
+        "dav": "cid-10"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.ownership",
+        "code": "9",
+        "value_ua": "Інші організаційно-правові форми",
+        "value_ru": "Другие организационно-правовые формы",
+        "value_en": "Other legal forms",
+        "dav": "cid-10"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.ownership",
+        "code": "8",
+        "value_ua": "Об'єднання громадян, профспілки, благодійні організації та інші подібні організації",
+        "value_ru": "Объединения граждан, профсоюзы, благотворительные организации и другие подобные организации",
+        "value_en": "Unions of sitizens, trade unions, charity organizations and other similar organizations",
+        "dav": "cid-10"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.ownership",
+        "code": "6",
+        "value_ua": "Відокремлені підрозділи без статусу юридичної особи",
+        "value_ru": "Обособленные подразделения без статуса юридического лица",
+        "value_en": "Separated branches without status of Legal Entity",
+        "dav": "cid-10"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.ownership",
+        "code": "5",
+        "value_ua": "Об'єднання підприємств (юридичних осіб)",
+        "value_ru": "Объединения предприятий (юридических лиц)",
+        "value_en": "Unions of enterprises (Legal Entities)",
+        "dav": "cid-10"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.ownership",
+        "code": "4",
+        "value_ua": "Організації (установи, заклади)",
+        "value_ru": "Организации (учреждения, заведения)",
+        "value_en": "Organizations (establishments)",
+        "dav": "cid-10"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.ownership",
+        "code": "3",
+        "value_ua": "Кооперативи",
+        "value_ru": "Кооперативы",
+        "value_en": "Cooperatives",
+        "dav": "cid-10"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.ownership",
+        "code": "2",
+        "value_ua": "Господарські товариства",
+        "value_ru": "Хозяйственные товарищества",
+        "value_en": "Economic companies",
+        "dav": "cid-10"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.ownership",
+        "code": "1",
+        "value_ua": "Підприємства",
+        "value_ru": "Предприятия",
+        "value_en": "Enterprises",
+        "dav": "cid-10"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.economic_activity",
+        "code": "9",
+        "value_ua": "Iнші галузі",
+        "value_ru": "Другие отрасли",
+        "value_en": "Other",
+        "dav": "cid-11"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.economic_activity",
+        "code": "8",
+        "value_ua": "Матеріально-технічне забезпечення та збут",
+        "value_ru": "Материально-техническое обеспечение и сбыт",
+        "value_en": "Logistical support and sale",
+        "dav": "cid-11"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.economic_activity",
+        "code": "7",
+        "value_ua": "Торгівля та громадське харчування",
+        "value_ru": "Торговля и общественное питание",
+        "value_en": "Trade and public feeding",
+        "dav": "cid-11"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.economic_activity",
+        "code": "6",
+        "value_ua": "Будівництво",
+        "value_ru": "Строительство",
+        "value_en": "Building",
+        "dav": "cid-11"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.economic_activity",
+        "code": "5",
+        "value_ua": "Транспорт та зв'язок",
+        "value_ru": "Транспорт и связь",
+        "value_en": "Transport and communication services",
+        "dav": "cid-11"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.economic_activity",
+        "code": "3",
+        "value_ua": "Лісове господарство",
+        "value_ru": "Лесное хозяйство",
+        "value_en": "Forestry",
+        "dav": "cid-11"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.economic_activity",
+        "code": "2",
+        "value_ua": "Сільське господарство",
+        "value_ru": "Сельское хозяйство",
+        "value_en": "Agriculture",
+        "dav": "cid-11"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.economic_activity",
+        "code": "1",
+        "value_ua": "Промисловість",
+        "value_ru": "Промышленность",
+        "value_en": "Industry",
+        "dav": "cid-11"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "19",
+        "value_ua": "Інвестиційні цілі (для юридичної особи)",
+        "value_ru": "Инвестиционные цели (для юридического лица)",
+        "value_en": "Investment purposes",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "18",
+        "value_ua": "Поповнення оборотних коштів юридичної особи",
+        "value_ru": "Пополнение оборотных средств юридического лица",
+        "value_en": "Addition to the turnover means of legal entity",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "17",
+        "value_ua": "Овердрафт",
+        "value_ru": "Овердрафт",
+        "value_en": "Overdraft",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "16",
+        "value_ua": "Кредитна карта",
+        "value_ru": "Кредитная карта",
+        "value_en": "Credit card",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "15",
+        "value_ua": "Споживчий кредит",
+        "value_ru": "Потребительский кредит",
+        "value_en": "Consumer credit",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "14",
+        "value_ua": "Факторинг",
+        "value_ru": "Факторинг",
+        "value_en": "Factoring",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "13",
+        "value_ua": "Аккредитив",
+        "value_ru": "Аккредитив",
+        "value_en": "Bill of credit",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "12",
+        "value_ua": "Аваль",
+        "value_ru": "Аваль",
+        "value_en": "Aval",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "11",
+        "value_ua": "Гарантія",
+        "value_ru": "Гарантия",
+        "value_en": "Guarantee",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "10",
+        "value_ua": "Персональний кредит з забезпеченням",
+        "value_ru": "Персональный кредит с обеспечением",
+        "value_en": "Personal credit with assurance",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "9",
+        "value_ua": "Персональний кредит без забезпечення",
+        "value_ru": "Персональный кредит без обеспечения",
+        "value_en": "Personal credit without assurance",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "8",
+        "value_ua": "Не визначено",
+        "value_ru": "Не определено",
+        "value_en": "Not specified",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "7",
+        "value_ua": "Інші споживчі цілі",
+        "value_ru": "Другие потребительские цели",
+        "value_en": "Other Consumer Purposes",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "6",
+        "value_ua": "Придбання меблів або обладнання",
+        "value_ru": "Приобретение мебели или оборудования",
+        "value_en": "Purchase of the furniture or equipment",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "5",
+        "value_ua": "Автокредит",
+        "value_ru": "Автокредит",
+        "value_en": "Purchase of Car",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "4",
+        "value_ua": "Іпотечний кредит",
+        "value_ru": ">Ипотечный кредит",
+        "value_en": "Mortgage Loan",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "3",
+        "value_ua": "Інші цілі",
+        "value_ru": "Другие цели",
+        "value_en": "Other Business Purposes",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "2",
+        "value_ua": "Придбання основних засобів/Капітальні інвестиції",
+        "value_ru": "Приобретение основных средств/Капитальные инвестиции",
+        "value_en": "Aquisition of Fixed Assets/Capital Investment",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.credit_purpose",
+        "code": "1",
+        "value_ua": "Поповнення поточних активів",
+        "value_ru": "Пополнение текущих активов",
+        "value_en": "Replenishment of Current Assets",
+        "dav": "cid-14"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.phase_id",
+        "code": "6",
+        "value_ua": "Припинено передчасно",
+        "value_ru": "Прекращено преждевременно",
+        "value_en": "Terminated in Advance",
+        "dav": "cid-15"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.phase_id",
+        "code": "5",
+        "value_ua": "Припинено",
+        "value_ru": "Прекращено",
+        "value_en": "Terminated",
+        "dav": "cid-15"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.phase_id",
+        "code": "4",
+        "value_ua": "Поточний",
+        "value_ru": "Текущий",
+        "value_en": "Existing",
+        "dav": "cid-15"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.phase_id",
+        "code": "3",
+        "value_ua": "Відмовлено",
+        "value_ru": "Отказано",
+        "value_en": "Rejected",
+        "dav": "cid-15"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.phase_id",
+        "code": "2",
+        "value_ua": "Відкликано",
+        "value_ru": "Отозвано",
+        "value_en": "Withdrawn",
+        "dav": "cid-15"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.phase_id",
+        "code": "1",
+        "value_ua": "Зроблено запит",
+        "value_ru": "Сделано запрос",
+        "value_en": "Requested",
+        "dav": "cid-15"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "110",
+        "value_ua": "Інформація по кредитній угоді перевіряється Бюро в зв’язку з заявою суб’єкта кредитної історії",
+        "value_ru": "Информация по кредитной сделке проверяется Бюро в связи с заявлением субъекта кредитной истории",
+        "value_en": "The information on the loan agreement is checked by the Bureau in connection with the statement of the subject of credit history",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "18",
+        "value_ua": "Особливі умови обслуговування в зв`язку з мобілізацією клієнта",
+        "value_ru": "Особые условия обслуживания в связи с мобилизацией клиента",
+        "value_en": "Special terms of service in connection with mobilization of client",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "17",
+        "value_ua": "Інформацію по кредиту надано помилково",
+        "value_ru": "Информация по кредиту передана ошибочно",
+        "value_en": "Information about the credit is given by mistake",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "16",
+        "value_ua": "Кредит реструктуризовано",
+        "value_ru": "Кредит реструктуризован",
+        "value_en": "Credit is restructured",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "15",
+        "value_ua": "Фін.установа не має технічної можливості передати історичну інформацію, надано кумулятивну інформацію",
+        "value_ru": "Фин.учреждение не имеет технической возможности передать историческую информацию, передана кумулятивная информация",
+        "value_en": "Financial institution does not have the technical opportunity to pass historical information, cumulative information is given",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "13",
+        "value_ua": "Продаж кредиту іншому кредитору в зв`язку зі зміною кредитної політики кредитора",
+        "value_ru": "Продажа кредита другому кредитору в связи с изменением кредитной политики кредитора",
+        "value_en": "Sale of credit to other creditor in connection with the change of credit politics of creditor",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "12",
+        "value_ua": "Фінансова установа не має технічної можливості оновлювати інформацію",
+        "value_ru": "Финансовое учреждение не имеет технической возможности обновлять информацию",
+        "value_en": "Financial institution does not have the technical opportunity to renew information",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "11",
+        "value_ua": "Фінансова установа припинила своє існування",
+        "value_ru": "Финансовое учреждение прекратило свое существование",
+        "value_en": "Financial institution ceased to exist",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "10",
+        "value_ua": "Статус договору не є негативним",
+        "value_ru": "Статус договора не является негативным",
+        "value_en": "Contract Status Is Not Negative",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "8",
+        "value_ua": "Відмінено унаслідок затриманих платежів",
+        "value_ru": "Отменено по причине задержанных платежей",
+        "value_en": "Cancelled Due to Delayed Payements",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "7",
+        "value_ua": "Підвищений ризик<",
+        "value_ru": "Субстандартные и сомнительные кредиты",
+        "value_en": "Increased Risk",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "6",
+        "value_ua": "Заблоковано",
+        "value_ru": "Заблокировано",
+        "value_en": "Blocked",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "5",
+        "value_ua": "Кредит переведено на нового позичальника",
+        "value_ru": "Кредит переведен на нового должника",
+        "value_en": "Credit Reassigned to a New Borrower",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "4",
+        "value_ua": "Позика списана на позабалансовий рахунок",
+        "value_ru": "Кредит списан на небалансовый счет",
+        "value_en": "Loan Written Off to Off-Balance Sheet Account",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "3",
+        "value_ua": "Позика переведена в розряд збитків, 100% неліквідність, балансовий рахунок",
+        "value_ru": "Кредит переведён в разряд убытков, 100% неликвидность, балансовый счет",
+        "value_en": "Loan Transferred to Losses, 100% nonliquid, on balance sheet account",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "2",
+        "value_ua": "Нелегитимный дебетовый остаток на текущем счету",
+        "value_ru": "Нелегитимниый дебетовий остаток на текущем счете",
+        "value_en": "Unauthorized Debit Balance on Current Account",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "1",
+        "value_ua": "Цесія кредиту третій особі (зі знижкою)",
+        "value_ru": "Цессия кредита третьему лицу (со скидкой)",
+        "value_en": "Assignment of Credit to Third Party (with discount)",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.negative_status",
+        "code": "0",
+        "value_ua": "Немає",
+        "value_ru": "Нет",
+        "value_en": "None",
+        "dav": "cid-16"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "11",
+        "value_ua": "Авансові щомісячні платежі",
+        "value_ru": "Авансовые ежемесячные платежи",
+        "value_en": "Advanced monthly payments",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "10",
+        "value_ua": "Нерегулярні внески або сплата рахунків",
+        "value_ru": "Нерегулярные платежи или оплата счетов",
+        "value_en": "Irregular Instalments or Invoices",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "9",
+        "value_ua": "В день завершення дії договору",
+        "value_ru": "В день окончания действия договора",
+        "value_en": "At the final day of the period of contract",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "8",
+        "value_ua": "Чергові внески або рахунок-фактура раз на рік - 360 днів",
+        "value_ru": "Очередные платежи или счет-фактура раз на год - 360 дней",
+        "value_en": "Annual Instalments or Invoices - 360 days",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "7",
+        "value_ua": "Чергові внески або рахунок-фактура раз шість місяців - 180 днів",
+        "value_ru": "Очередные платежи или счет-фактура раз на шесть месяцев - 180 дней",
+        "value_en": "Six-Month Instalments or Invoices - 180 days",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "6",
+        "value_ua": "Чергові внески або рахунок-фактура раз на пять місяців - 150 днів",
+        "value_ru": "Очередные платежи или счет-фактура раз на пять месяцев - 150 дней",
+        "value_en": "Five-Month Instalments or Invoices - 150 days",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "5",
+        "value_ua": "Чергові внески або рахунок-фактура раз на чотири місяці - 120 днів",
+        "value_ru": "Очередные платежи или счет-фактура раз на четыре месяца - 120 дней",
+        "value_en": "Four-Month Instalments or Invoices - 120 days",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "4",
+        "value_ua": "Чергові внески або рахунок-фактура поквартально - 90 днів",
+        "value_ru": "Очередные платежи или счет-фактура ежеквартально - 90 дней",
+        "value_en": "Quarterly Instalments or Invoices - 90 days",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "3",
+        "value_ua": "Чергові внески або рахунок-фактура кожні два місяця - 60 днів",
+        "value_ru": "Очередные платежи или счет-фактура каждые два месяца - 60 дней",
+        "value_en": "Bimonthly Instalments or Invoices - 60 days",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "2",
+        "value_ua": "Чергові внески або рахунок-фактура кожний місяць - 30 днів",
+        "value_ru": "Очередные платежи или счет-фактура каждый месяц - 30 дней",
+        "value_en": "Monthly Instalments or Invoices - 30 days",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_period_id",
+        "code": "1",
+        "value_ua": "Чергові внески або рахунок-фактура кожні два тижня - 15 днів",
+        "value_ru": "Очередные платежи или счет-фактура каждые две недели - 15 дней",
+        "value_en": "Fortnightly Instalments or Invoices - 15 days",
+        "dav": "cid-18"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_method_id",
+        "code": "8",
+        "value_ua": "Метод розрахунку прострочки FIFO",
+        "value_ru": "Метод расчета просрочки FIFO",
+        "value_en": "Method of Overdue Calculation FIFO",
+        "dav": "cid-19"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_method_id",
+        "code": "7",
+        "value_ua": "Метод розрахунку прострочки LIFO",
+        "value_ru": ">Метод расчета просрочки LIFO",
+        "value_en": "Method of Overdue Calculation LIFO",
+        "dav": "cid-19"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_method_id",
+        "code": "6",
+        "value_ua": "Невизначено",
+        "value_ru": "Неопределенно",
+        "value_en": "Undetermined",
+        "dav": "cid-19"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_method_id",
+        "code": "5",
+        "value_ua": "Авторизація прямого дебету поточного рахунку",
+        "value_ru": "Авторизация прямого дебитного текущего счета",
+        "value_en": "Authorization to Direct Current Account Debit",
+        "dav": "cid-19"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_method_id",
+        "code": "4",
+        "value_ua": "Прямий грошовий переказ",
+        "value_ru": "Предъявление платежных поручений",
+        "value_en": "Direct Remittance",
+        "dav": "cid-19"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_method_id",
+        "code": "3",
+        "value_ua": "Банківська квитанція",
+        "value_ru": "Банковская квитанция",
+        "value_en": "Banking Receipt",
+        "dav": "cid-19"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_method_id",
+        "code": "2",
+        "value_ua": "Переводной вексель",
+        "value_ru": "Переводный вексель/простой вексель",
+        "value_en": "Bill of Exchange",
+        "dav": "cid-19"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.payment_method_id",
+        "code": "1",
+        "value_ua": "Дебет поточного рахунку",
+        "value_ru": "Прямое дебетование банковского счета",
+        "value_en": "Current Account Debit",
+        "dav": "cid-19"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Record.credit_usage",
+        "code": "3",
+        "value_ua": "Відсут.",
+        "value_ru": "Отсут.",
+        "value_en": "NO",
+        "dav": "cid-20"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Record.credit_usage",
+        "code": "2",
+        "value_ua": "Поповн.",
+        "value_ru": "Зачисл.",
+        "value_en": "IN",
+        "dav": "cid-20"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Record.credit_usage",
+        "code": "1",
+        "value_ua": "Зняття",
+        "value_ru": "Снят",
+        "value_en": "OUT",
+        "dav": "cid-20"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.employee_count",
+        "code": "5",
+        "value_ua": "Більше 500",
+        "value_ru": "Больше 500",
+        "value_en": "more than 500",
+        "dav": "cid-22"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.employee_count",
+        "code": "4",
+        "value_ua": "101..500",
+        "value_ru": "101..500",
+        "value_en": "101..500",
+        "dav": "cid-22"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.employee_count",
+        "code": "3",
+        "value_ua": "31..100",
+        "value_ru": "31..100",
+        "value_en": "31..100",
+        "dav": "cid-22"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.employee_count",
+        "code": "2",
+        "value_ua": "6..30",
+        "value_ru": "6..30",
+        "value_en": "6..30",
+        "dav": "cid-22"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.employee_count",
+        "code": "1",
+        "value_ua": "1..5",
+        "value_ru": "1..5",
+        "value_en": "1..5",
+        "dav": "cid-22"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "address.type_id",
+        "code": "6",
+        "value_ua": "Адреса гаранта",
+        "value_ru": "Адрес поручителя",
+        "value_en": "Address of collateral",
+        "dav": "cid-26"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "address.type_id",
+        "code": "5",
+        "value_ua": "Адреса попереднього місця роботи",
+        "value_ru": "Адрес предыдущего места работы",
+        "value_en": "Address of previous employment place",
+        "dav": "cid-26"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "address.type_id",
+        "code": "4",
+        "value_ua": "Адреса місця роботи",
+        "value_ru": "Адрес места работы",
+        "value_en": "Address of employment place",
+        "dav": "cid-26"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "address.type_id",
+        "code": "3",
+        "value_ua": "Поштова адреса ",
+        "value_ru": "Почтовый адрес",
+        "value_en": "Postal address",
+        "dav": "cid-26"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "address.type_id",
+        "code": "2",
+        "value_ua": "Фактична адреса",
+        "value_ru": "Фактический адрес",
+        "value_en": "Factual address",
+        "dav": "cid-26"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "address.type_id",
+        "code": "1",
+        "value_ua": "Адреса постійного місця проживання або реєстрації",
+        "value_ru": "Адрес постоянного места жительства или регистрации",
+        "value_en": "Address of permanent residence or registration",
+        "dav": "cid-26"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Communication.type_id",
+        "code": "6",
+        "value_ua": "Інтернет-сторінка",
+        "value_ru": "Адрес в интернете",
+        "value_en": "Web site",
+        "dav": "cid-27"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Communication.type_id",
+        "code": "5",
+        "value_ua": "Електрона адреса",
+        "value_ru": "Электронный адрес",
+        "value_en": "E-mail address",
+        "dav": "cid-27"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Communication.type_id",
+        "code": "4",
+        "value_ua": "Телефонний номер - факс",
+        "value_ru": "Телефонный номер - факс",
+        "value_en": "Phone number - fax",
+        "dav": "cid-27"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Communication.type_id",
+        "code": "3",
+        "value_ua": "Телефонний номер - мобільний",
+        "value_ru": "Телефонный номер - мобильный",
+        "value_en": "Phone number - mobile",
+        "dav": "cid-27"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Communication.type_id",
+        "code": "2",
+        "value_ua": "Телефонний номер - офісний",
+        "value_ru": "Телефонный номер - офисний",
+        "value_en": "Phone number - office",
+        "dav": "cid-27"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Communication.type_id",
+        "code": "1",
+        "value_ua": "Телефонний номер - домашній",
+        "value_ru": "Телефонный номер - домашний",
+        "value_en": "Phone number - home",
+        "dav": "cid-27"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "15",
+        "value_ua": "Тимчасове посвідчення особи громадянина України",
+        "value_ru": "Временное удостоверение личности гражданина Украины",
+        "value_en": "Temporary identity card of the citizen of Ukraine",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "14",
+        "value_ua": "Паспорт Іноземця",
+        "value_ru": "Паспорт Иностранца",
+        "value_en": "International Passport",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "13",
+        "value_ua": "Для юридичних осіб i фізичних осіб підприємців: Номер запису про державну реєстрацію",
+        "value_ru": "Для юридических лиц и физических лиц-частных предпринимателей:номер записи о государственной регистрации",
+        "value_en": "Registration number (companies)",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "12",
+        "value_ua": "Номер запису про державну реєстрацію",
+        "value_ru": "Номер записи о государственной регистрации",
+        "value_en": "Number of state registration record",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "11",
+        "value_ua": "Відсутність документів",
+        "value_ru": "Отсутствие документов",
+        "value_en": "Lack of documents",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "10",
+        "value_ua": "Свідоцтво про народження",
+        "value_ru": "Свидетельсво о рождении",
+        "value_en": "Birth-certificate",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "9",
+        "value_ua": "Свідоцтво про шлюб/свідоцтво про розірвання шлюбу",
+        "value_ru": "Удостоверение о браке/удостоверение о разводе",
+        "value_en": "Certificate of marriage/certificate of marriage breaking-off",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "8",
+        "value_ua": "Номер свідоцтва про загальнообов'язкове страхування",
+        "value_ru": "Номер удостоверения о всеобщеобязательное страхование",
+        "value_en": "Certificate of obligatory insurance number",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "7",
+        "value_ua": "Закордонний паспорт",
+        "value_ru": "Заграничный паспорт",
+        "value_en": "Traveling passport",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "6",
+        "value_ua": "Дозвіл на постійне проживання (тільки для іноземців)",
+        "value_ru": "Разрешение на постоянное жительство (только для иностранцев)",
+        "value_en": "Permit for permanent residence (foreigners only)",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "5",
+        "value_ua": "Ідентифікаційна карта для громадян України",
+        "value_ru": "Идентификационная карта для граждан Украины",
+        "value_en": "Identity card for UA citizens",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "4",
+        "value_ua": "Паспорт громадянина України",
+        "value_ru": "Паспорт гражданина Украины",
+        "value_en": "Identity card for UA citizens",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "3",
+        "value_ua": "Складений ключ (ім'я+прізвище+дата народження)",
+        "value_ru": "Составной ключ (имя+фамилия+дата рождения)",
+        "value_en": "Composite key (name+birth surname+date of birth)",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "2",
+        "value_ua": "TAX ID - первинний ключ для фізичних осіб та приватних підприємців",
+        "value_ru": "TAX ID - первичный ключ для физических лиц и частных предпринимателей",
+        "value_en": "TAX ID – primary key for individuals and individuals-entrepreneurs",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Identification.type_id Collateral.identification_type_id",
+        "code": "1",
+        "value_ua": "Унікальний номер суб'єкту, що був наданий постачальником даних",
+        "value_ru": "Уникальный номер субъекта, который был предоставлен провайдером данных",
+        "value_en": "Unique Number of Subject that was given by Data Provider",
+        "dav": "cid-29"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.type Event.event",
+        "code": "nonInstalment",
+        "value_ua": "Договір з поверненням в кінці терміну",
+        "value_ru": "Договор с погашением в конце срока",
+        "value_en": "NON-Installment agreement",
+        "dav": "rv-001"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.type Event.event",
+        "code": "leasing",
+        "value_ua": "Договір лізингу",
+        "value_ru": "Договор лизинга",
+        "value_en": "Leasing agreement",
+        "dav": "rv-001"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.type Event.event",
+        "code": "instalment",
+        "value_ua": "Договір з визначеним графіком повернення",
+        "value_ru": "Договор с установленным графиком погашения",
+        "value_en": "Installment agreement",
+        "dav": "rv-001"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.type Event.event",
+        "code": "credit",
+        "value_ua": "Договір із встановленим лімітом кредитування без визначеного графіку повернення",
+        "value_ru": "Договор с установленным лимитом использования без определённого графика погашения",
+        "value_en": "Credit agreement",
+        "dav": "rv-001"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Contract.type Event.event",
+        "code": "business",
+        "value_ua": "Дело",
+        "value_ru": "Дело",
+        "value_en": "Дело",
+        "dav": "rv-001"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.entity",
+        "code": "subject",
+        "value_ua": "Суб'єкт",
+        "value_ru": "НЕ Определеное Лицо",
+        "value_en": "Subject",
+        "dav": "rv-002"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.entity",
+        "code": "individual",
+        "value_ua": "Фізична особа",
+        "value_ru": "Физическое лицо",
+        "value_en": "Individual",
+        "dav": "rv-002"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Subject.entity",
+        "code": "company",
+        "value_ua": "Юридична особа",
+        "value_ru": "Юридическое лицо",
+        "value_en": "Company",
+        "dav": "rv-002"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "type",
+        "value_ua": "",
+        "value_ru": "Количество ({count}) контрактов с типом ({code}) описаным словарём (rv-001).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "totalAmount",
+        "value_ua": "",
+        "value_ru": "Общая сумма всех контрактов ({amount}) в разрезе валют ({code}) в количестве ({count}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "roleId",
+        "value_ua": "",
+        "value_ru": "Количество ({count}) контрактов по отнощению к которым субъект выступает в роли ({value}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "restAmount",
+        "value_ua": "",
+        "value_ru": "Общая текущая задолженность ({amount}) в разрезе валют ({code}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "phaseId",
+        "value_ua": "",
+        "value_ru": "Количество ({count}) контрактов в фазе ({value}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "overdueAmount",
+        "value_ua": "",
+        "value_ru": "Сумарная просрочка ({amount}) в разрезе валют ({code}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "openLimit",
+        "value_ua": "",
+        "value_ru": "Полный кредитный лимит по действующим контрактам ({amount}) в разрезе валют ({code}) в количестве ({count}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "openAmount",
+        "value_ua": "",
+        "value_ru": "Общая сумма действующих контрактов ({amount}) в разрезе валют ({code}) в количестве ({count}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "negativeStatus",
+        "value_ua": "",
+        "value_ru": "Количество ({count}) контрактов с установленным негативным статусом.",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "instalmentAmount",
+        "value_ua": "",
+        "value_ru": "Общая сумма ближайшего периодического платежа по действующим контрактам ({amount}) в разрезе валют ({code}) в количестве ({count}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "event",
+        "value_ua": "",
+        "value_ru": "Количество запросов по субъекту за всё время. ({code}) = литерал [request].",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "currency",
+        "value_ua": "",
+        "value_ru": "Количество ({count}) контрактов по валюте ({code}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "creditLimit",
+        "value_ua": "",
+        "value_ru": "Полный кредитный лимит по всем контрактам ({amount}) в разрезе валют ({code}) в количестве ({count}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "collateralAmount",
+        "value_ua": "",
+        "value_ru": "Залоги имеющие денежное ({amount}) выражение в разрезе валют ({code}) и в количестве ({count}).",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Summary.category",
+        "code": "collateral",
+        "value_ua": "",
+        "value_ru": "Количество ({count}) залогов.",
+        "value_en": "",
+        "dav": "rv-003"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Dependant.type_id",
+        "code": "1",
+        "value_ua": "до 18 років",
+        "value_ru": "до 18 лет",
+        "value_en": "to 18 years",
+        "dav": "dependant_type"
+    }},
+    {"model": "pvbki.vocabulary", "pk": null, "fields": {
+        "model_fields": "Dependant.type_id",
+        "code": "2",
+        "value_ua": "після 18 років",
+        "value_ru": "после 18 лет",
+        "value_en": "after 18 years",
+        "dav": "dependant_type"
+    }}
+]
